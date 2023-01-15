@@ -1,0 +1,19 @@
+{
+    "name": "debva/phptelegram",
+    "description": "PHP Telegram API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Debva\\Phptelegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wildhandb",
+            "email": "wildhan.db@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
