@@ -6,7 +6,7 @@ trait EditMessageText
 {
     public function editMessageText($parameter)
     {
-        $this->url = "{$this->url}/editMessageText";
+        $this->endpoint = 'editMessageText';
         $this->content = $parameter;
         return $this->send();
     }

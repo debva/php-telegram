@@ -6,7 +6,7 @@ trait SetWebhook
 {
     public function setWebhook($parameter)
     {
-        $this->url = "{$this->url}/setWebhook";
+        $this->endpoint = 'setWebhook';
         $this->content = $parameter;
         return $this->send();
     }

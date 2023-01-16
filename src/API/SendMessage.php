@@ -6,7 +6,7 @@ trait SendMessage
 {
     public function sendMessage(array $parameter)
     {
-        $this->url = "{$this->url}/sendMessage";
+        $this->endpoint = 'sendMessage';
         $this->content = $parameter;
         return $this->send();
     }
